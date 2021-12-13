@@ -1,6 +1,6 @@
 const { src, dest, series, watch } = require(`gulp`),
-    CSSLinter = require(`gulp-stylelint`),
     del = require(`del`),
+    CSSLinter = require(`gulp-stylelint`),
     babel = require(`gulp-babel`),
     htmlCompressor = require(`gulp-htmlmin`),
     htmlValidator = require(`gulp-html`),
@@ -20,7 +20,7 @@ async function chrome () {
 }
 
 async function edge () {
-    // In Windows, the value might need to be “microsoft-edge”. Note the dash.
+    // In Windows, the value might need to be microsoft-edge.
     browserChoice = `microsoft edge`;
 }
 
@@ -44,7 +44,7 @@ async function allBrowsers () {
     browserChoice = [
         `brave browser`,
         `google chrome`,
-        `microsoft edge`, // Note: In Windows, this might need to be microsoft-edge
+        `microsoft edge`, // In Windows, this might need to be microsoft-edge.
         `firefox`,
         `opera`,
         `safari`,
