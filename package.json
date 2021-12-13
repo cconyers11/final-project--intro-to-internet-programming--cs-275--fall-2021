@@ -4,12 +4,20 @@
   "description": "* **Do not start this project until you have read these instructions carefully.**  \r * **Read these instructions repeatedly until you understand, then begin your project. If something is not clear, ask.**",
   "main": "index.js",
   "dependencies": {
+    "browser-sync": "^2.27.7",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-eslint": "^6.0.0",
-    "gulp-htmlmin": "^5.0.1"
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-uglifycss": "^1.1.0",
+    "latest-version": "^6.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^8.4.1",
+    "gulp-babel": "^8.0.0",
     "gulp-html": "^3.5.0",
     "gulp-image": "^6.3.1",
     "gulp-imagemin": "^8.0.0",

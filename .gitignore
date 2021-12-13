@@ -6,7 +6,7 @@
 !.stylelintrc.json
 !README.md
 !index.html
-
+!.babelrc
 !gulpfile.js
 !package.json
 !package-lock.json
